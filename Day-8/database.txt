@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Sayan Laha",
+    "accountNumber": "2324",
+    "city": "kolkata",
+    "age": 22,
+    "balance": 10500
+  },
+  {
+    "name": "Sara Mollick",
+    "accountNumber": "1694",
+    "city": "Raipur",
+    "age": 21,
+    "balance": 1500
+  }
+]

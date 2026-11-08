@@ -13,7 +13,9 @@ const userSchema = mongoose.Schema({
     },
     accountNumber: {
         type: Number,
-        required: true
+        required: true,
+        unique:true,
+        index:true
     },
     city: {
         type: String,
@@ -33,7 +35,9 @@ const userSchema = mongoose.Schema({
     },
     accountType: {
         type: String,
-        require: true
+        require: true,
+        enum:["current","saving"],
+        default:"saving"
     }
 
 },{Timestamp:true})
